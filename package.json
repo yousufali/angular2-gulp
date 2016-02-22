@@ -1,0 +1,46 @@
+{
+  "name": "angular2-gulp",
+  "version": "1.0.0",
+  "description": "angular2 gulp",
+  "main": "index.html",
+  "scripts": {
+    "tslint": "tslint -c tslint.json app/**/*.ts",
+    "postinstall": "tsd install"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.6",
+    "systemjs": "0.19.20",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.14"
+  },
+  "devDependencies": {
+    "concurrently": "^1.0.0",
+    "lite-server": "^2.0.1",
+    "typescript": "^1.7.5",
+    "typings":"^0.6.8",
+    "browser-sync": "^2.10.0",
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^3.6.0",
+    "gulp-typescript": "^2.8.0",
+    "tsconfig-glob": "^0.3.3",
+    "tsd": "^0.6.5",
+    "tslint": "^3.2.1"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousufali/angular2-gulp.git"
+  },
+  "author": "yousuf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yousufali/angular2-gulp/issues"
+  },
+  "homepage": "https://github.com/yousufali/angular2-gulp#readme"
+}
+
+
